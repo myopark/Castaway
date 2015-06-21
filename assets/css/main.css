@@ -14,7 +14,7 @@
 		padding: 0;
 		border: 0;
 		font-size: 100%;
-		font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+		font: inherit;
 		vertical-align: baseline;
 	}
 
@@ -1010,8 +1010,16 @@
 /* Header */
 
 	#header h1 {
-		font-size: 3.25em;
+		font-size: 2em;
 		margin: 0 0 0.55em 0;
+	}
+	#playerName {
+		line-height: 1.25em;
+  		top: 0px;
+  		position: fixed;
+  		left: 0px;
+  		font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+
 	}
 
 	#header p {
